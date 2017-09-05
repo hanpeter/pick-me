@@ -1,0 +1,29 @@
+{
+  "name": "pick-me",
+  "version": "0.0.1",
+  "description": "A quick server to manage playing games together",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node web.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanpeter/pick-me.git"
+  },
+  "author": "@hanpeter",
+  "license": "MIT",
+  "engines": {
+    "node": "6.11.*"
+  },
+  "dependencies": {
+    "bluebird": "3.5.*",
+    "body-parser": "1.17.*",
+    "express": "4.15.*",
+    "lodash": "4.17.*",
+    "make-error": "1.2.*"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
